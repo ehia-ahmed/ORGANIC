@@ -1,0 +1,92 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    .banner-img img{
+        width: 250px;
+    }
+
+    .basil-leaf img{
+        position: absolute;
+        text-align: center;
+        top:-3%;
+        left:25%;
+    }
+    .reviwes-card-center{
+        width: 350px;
+        height: 400px;
+    }
+    .marging-top{
+        margin-top: 50px;
+    }
+
+    h1{
+        color: black;
+        font-size: 2em !important;
+        font-family: 'Merriweather', serif;
+     
+        }
+     
+        h2{
+         color: black;
+         font-size: 1.3em !important;
+      
+         }
+     
+         h3{
+             color: black;
+             font-size: 1em !important;
+             font-weight: 700;
+             font-family: 'Merriweather', serif; ;
+          
+         }
+         h4{
+             color: var(--bs-skyblueh4);
+             font-size: .8em !important;
+             font-weight: bold;
+             font-family: 'Merriweather', serif;
+     
+          
+         }
+         p{
+             color: var(--bs-blackp);
+             font-size: .6em !important;
+             font-weight: 400;
+             margin-bottom: 0 !important;
+             color: var(--bs-cyanreviwe);
+          
+         }
+
+         .footer li a{
+            color: #fff;
+            font-weight: 400;
+            font-size: .6em;
+       }
+
+       button{
+        padding: 5px 15px;
+        background-color: var(--bs-greenb);
+        color: var(--bs-white);
+        font-size: x-small !important;
+        outline: 0;
+        border: 0;
+        border-radius:5px !important;
+    }
+
+    .discount-top h2{
+        color: #fff;
+        font-family: 'Merriweather', serif;
+        font-size: .8em !important;
+    }
+
+    .discount-bottom h3{
+        font-size: .7em !important;
+    }
+
+    .company img{
+        width: 80px;
+        height: auto;
+    }
+
+    .header-2 p{
+        font-size: .5em !important;
+    }
+ }

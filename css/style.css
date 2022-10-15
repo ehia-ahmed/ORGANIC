@@ -1,0 +1,326 @@
+/*  =======================
+    Author: Ehia Ahmed
+    Author URL:https://ehiaahmedbd.netlify.app/
+    Temnplete-Name:ORGANIC
+    version: 1.0 
+    ================================*/
+
+    /* ======================
+        Table Of Content
+    
+        header
+        banner
+        service
+        product
+        vegetable
+        discount
+        Products-2
+        Reviews
+        company
+        footer
+    
+    */
+/* =========================
+    Global CSS
+    ============== */
+    *{
+        margin: 0px;
+        padding:0px ;
+        text-decoration: none !important;
+        list-style: none;
+    }
+
+    body{
+        /* font-family: 'Bitter', serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Merriweather', serif; */
+        /* background-color: red !important; */
+        background-color: #FCFCFA;
+    }
+/* ====================
+    Commmon CSS
+ */
+   h1{
+   color: black;
+   font-size: 3.5em !important;
+   font-family: 'Merriweather', serif;
+
+   }
+
+   h2{
+    color: black;
+    font-size: 2.5em !important;
+ 
+    }
+
+    h3{
+        color: black;
+        font-size: 2em !important;
+        font-weight: 700;
+        font-family: 'Merriweather', serif; ;
+     
+    }
+    h4{
+        color: var(--bs-skyblueh4);
+        font-size: 1.2em !important;
+        font-weight: bold;
+        font-family: 'Merriweather', serif;
+
+     
+    }
+    p{
+        color: var(--bs-blackp);
+        font-size: 1em !important;
+        font-weight: 400;
+        margin-bottom: 0 !important;
+        color: var(--bs-cyanreviwe);
+     
+    }
+
+    button{
+        padding: 10px 30px;
+        background-color: var(--bs-greenb);
+        color: var(--bs-white);
+        font-weight: 500;
+        outline: 0;
+        border: 0;
+        border-radius:5px !important;
+    }
+
+    .padding{
+        padding: 60px;
+    }
+    .marging-top{
+        margin-top: 100px;
+    }
+    /*----------------
+     root file 
+     --------------- */
+    :root
+    {
+        --bs-white: #FFFFFF;
+        --bs-greenb: #567730;
+        --bs-greensale: #8BC14E;
+        --bs-blackp: #949391;
+        --bs-cyanreviwe: #9C9C9C;
+        --bs-blue: #001523 !important;
+        --bs-skyblueh4: #494846;
+        --bs-skybluebannerbd: #FAF9F6;
+        --bs-offwhite: #FAFAFA;
+
+    }
+    header{
+        background-color:var(--bs-white);
+    }
+    header button{
+        background-color: var(--bs-white);
+        color:var(--bs-greensale) ;
+        border: 2px solid var(--bs-greensale);
+        padding: 10px 10px;
+        border-radius:0 !important;
+    }
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+    }
+    .nav-link{
+        font-weight: 500;
+    }
+    .banner{
+        background-color:var(--bs-skybluebannerbd) ;
+    }
+
+    .banner p{
+        color: var(--bs-cyanreviwe);
+    }
+    .banner button{
+        margin-top: 30px;
+    }
+    .service{
+        background-color:black;
+    }
+
+    .service img{
+        width: 40px;
+        height: 40px;
+        margin:  0 10px;
+    }
+
+    .service-type{
+        background-color:var(--bs-skyblueh4);
+        padding: 30px 0px;
+        
+    }
+    .service-type h4,p{
+        color: #fff;
+    }
+
+    .product{
+        margin-top: 100px;
+    }
+    .product-box{
+        height: auto;
+        width: 280px;
+    }
+    .product-box img{
+        width: 280px;
+        height: auto;
+    }
+    .product-box p{
+        color: var(--bs-cyanreviwe);
+        font-weight: 500;
+    }
+       
+    .basil-leaf img{
+        position: absolute;
+        text-align: center;
+        top:-7%;
+        left:50%;
+    }
+
+
+
+
+    .vegetable{
+        position: relative;
+        margin-top: 100px;
+        background-color: var(--bs-skybluebannerbd);
+    }
+    .vegetable p{
+        color: var(--bs-cyanreviwe);
+        padding-bottom: 30px;
+    }
+    .vegetable .veg-box-1{
+        width: 380PX;
+        height: 350px;
+        padding: 40px;
+        background-color: #fff;
+        /* border: 2px solid black; */
+        background-image:url(../images/lemon.png);
+        background-size: 20em;
+        background-repeat: no-repeat;
+        background-position:bottom;
+        border-radius: 5px;
+        box-shadow:2px 2px 15px -3px rgba(0,0,0,0.29);
+    }
+
+    .vegetable .veg-box-2{
+        width: 380PX;
+        height: 350px;
+        padding: 40px;
+        /* border: 2px solid black; */
+        background-color: #fff;
+        background-image:url(../images/kobi.png);
+        background-size: 15em;
+        background-repeat: no-repeat;
+        background-position:bottom;
+        border-radius: 5px;
+        box-shadow:2px 2px 15px -3px rgba(0,0,0,0.29);
+    }
+
+    .vegetable .veg-box-3{
+        width: 380PX;
+        height: 350px;
+        padding: 40px;
+        /* border: 2px solid black; */
+        background-color: #fff;
+        background-image:url(../images/badam.png);
+        background-size: 14em;
+        background-repeat: no-repeat;
+        background-position:bottom;
+        border-radius: 5px;
+        box-shadow:2px 2px 15px -3px rgba(0,0,0,0.29);
+        
+    }
+
+    .discount-top{
+        background-color: black;
+    }
+    .discount-top h2{
+        color: #fff;
+        font-family: 'Merriweather', serif;
+    }
+
+    .discount-bottom{
+        background-color: var(--bs-skybluebannerbd);
+    }
+
+    .rev-card{
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .rev-card i{
+        color: #FDBC1F;
+    }
+    .rev-card p{
+        color: var(--bs-cyanreviwe);
+    }
+
+    .reviwes-card{
+        height: auto;
+        width: 350px;
+        text-align: center;
+        padding: 30px;
+        /* border: 2px solid black; */
+        border-radius: 5px;
+        box-shadow:2px 2px 15px -3px rgba(0,0,0,0.29);
+    }
+
+
+    .rev-card-bottom p{
+        /* color: black; */
+        font-weight: 500;
+        padding-left: 20px;
+    }
+    .reviwes-card-center{
+        background-image:linear-gradient(#2125299e,#212529a6,#21252999,#21252999), url(../images/unsplash-1.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        background-size: cover;
+        height: 400px;
+        width: 380px;
+        text-align: center;
+        padding: 30px;
+        /* border: 2px solid black; */
+        border-radius: 5px;
+        box-shadow:2px 2px 15px -3px rgba(0,0,0,0.29);
+        
+    }
+
+    .reviwes-card-center:hover{
+    
+        background-image:linear-gradient(#13161a9e,#13161a9e,#13161a9e,#13161a9e), url(../images/unsplash-1.jpg);
+    }
+
+    .reviwes-card-center h2{
+        color: #fff;
+    }
+    .reviwes-card-center p{
+        color: #fff;
+        margin-top: 20px;
+    }
+
+    .reviwes-card-center button{
+        margin-top: 50px;
+        color: #fff;
+    }
+
+    .company img{
+        width: auto;
+        height: auto;
+    }
+
+    .footer{
+        background-color: var(--bs-blue);
+    }
+
+   .footer h4{
+        color: #fff;
+   }
+
+   .footer li a{
+        color: #fff;
+        font-weight: 500;
+   }
